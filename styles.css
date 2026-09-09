@@ -12,11 +12,15 @@ body {
 
 .section-div {
 	display: flex;
-	
+	gap: 4px;
+	align-items: flex-start;	
 }
 
 .pictorial-news-section, .main-article, .latest-news-section {
 	background-color: white;
+	width: 200px;
+	padding: 4px;
+	border-radius: 5px;
 }
 
 .image {
